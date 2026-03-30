@@ -3,6 +3,7 @@ import * as React from "react";
 // import email from '../../images/email.png';
 // import phone from '../../images/phone.png';
 // import linkedin from '../../images/linkedin.png';
+import { Link } from "gatsby";
 import ContactForm from "../Contact/ContactForm";
 import ContactOverlay from "../Contact/ContactOverlay";
 import "./layout.css";
@@ -30,6 +31,9 @@ const Layout = ({ isShowing, setIsShowing, children }) => {
   return (
     <div className="background">
       <title>Hello there! | Scott Andermann</title>
+      <nav>
+        <Link to="/mission-control" className="mission-control-link">Mission Control</Link>
+      </nav>
       <ContactForm
         isShowing={isShowing}
         exitButton={exitButton}
