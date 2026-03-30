@@ -32,7 +32,6 @@ const Layout = ({ isShowing, setIsShowing, children }) => {
     <div className="background">
       <title>Hello there! | Scott Andermann</title>
       <nav>
-        <Link to="/mission-control" className="mission-control-link">Mission Control</Link>
       </nav>
       <ContactForm
         isShowing={isShowing}
