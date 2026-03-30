@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import styled, { createGlobalStyle, keyframes } from "styled-components";
 
-const API_URL = "http://localhost:3001";
+const API_URL = "https://sandman.scottandermann.com";
 
 // ── Global styles scoped to this page ──────────────────────────────────────
 
