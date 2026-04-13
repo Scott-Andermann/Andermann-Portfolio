@@ -30,7 +30,6 @@ const Layout = ({ isShowing, setIsShowing, children }) => {
   return (
     <div className="background">
       <title>Hello there! | Scott Andermann</title>
-
       <ContactForm
         isShowing={isShowing}
         exitButton={exitButton}
