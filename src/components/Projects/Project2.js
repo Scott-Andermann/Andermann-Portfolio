@@ -69,7 +69,6 @@ const Project2 = ({ projectInfo }) => {
       <ArrowButton
         onClick={() => paginate(-1)}
         className="bg-transparent border-0"
-        aria-label="previous project"
       >
         <ArrowBullet style={arrowStyle} className="left-arrow" />
       </ArrowButton>
@@ -116,7 +115,6 @@ const Project2 = ({ projectInfo }) => {
       <ArrowButton
         onClick={() => paginate(1)}
         className="bg-transparent border-0"
-        aria-label="next project"
       >
         <ArrowBullet style={arrowStyle} className="right-arrow" />
       </ArrowButton>
